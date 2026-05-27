@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>30 Days · 30 Projects // a controlled descent into madness</title>
+<meta name="description" content="A 30-day challenge to build 30 quirky, mostly useless, occasionally delightful web projects." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🛠️%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+<div class="grain"></div>
+<div class="scanlines"></div>
+
+<header class="masthead">
+  <div class="masthead__top">
+    <span class="masthead__brand">// <span class="blink">_</span></span>
+    <span class="masthead__date" id="liveDate">--</span>
+  </div>
+  <h1 class="title">
+    <span class="title__line">THIRTY</span>
+    <span class="title__line title__line--accent">DAYS</span>
+    <span class="title__line">THIRTY</span>
+    <span class="title__line title__line--accent">PROJECTS</span>
+  </h1>
+  <p class="tagline">A controlled descent into madness, one commit at a time.<br/>
+  <span class="tagline__small">Each project is deployed live. Most of them are useless. All of them are mine.</span></p>
+
+  <div class="stats">
+    <div class="stat">
+      <span class="stat__num" id="completedCount">1</span>
+      <span class="stat__label">shipped</span>
+    </div>
+    <div class="stat">
+      <span class="stat__num" id="remainingCount">29</span>
+      <span class="stat__label">to go</span>
+    </div>
+    <div class="stat">
+      <span class="stat__num" id="progressPct">3%</span>
+      <span class="stat__label">complete</span>
+    </div>
+  </div>
+
+  <div class="progress">
+    <div class="progress__bar" id="progressBar" style="width: 3.33%"></div>
+  </div>
+</header>
+
+<main>
+  <section class="manifesto">
+    <h2 class="section-title">The Rules</h2>
+    <ol class="manifesto__list">
+      <li>One project per day. No exceptions, no excuses.</li>
+      <li>Each project gets its own GitHub repo + GitHub Pages deployment.</li>
+      <li>Every project must be quirky, weird, or have no real reason to exist.</li>
+      <li>If it's useful, it's a bug.</li>
+      <li>Ship before midnight or live with the shame.</li>
+    </ol>
+  </section>
+
+  <section class="projects">
+    <h2 class="section-title">The Manifest</h2>
+    <p class="section-sub">Click a tile to visit the live site. Locked tiles haven't been built yet.</p>
+    <div class="grid" id="projectGrid">
+      <!-- populated by JS -->
+    </div>
+  </section>
+
+  <section class="about">
+    <h2 class="section-title">Who's behind this?</h2>
+    <p>Hi. I'm a developer doing a thing. This page exists primarily so that when an interviewer asks "have you built anything recently?" I can hand them a link instead of mumbling.</p>
+    <p>If you'd like to follow along, the source for everything lives on <a href="#" id="githubLink" class="link">GitHub</a>.</p>
+  </section>
+</main>
+
+<footer class="footer">
+  <span>built with stubbornness · day <span id="dayCounter">1</span> of 30</span>
+  <span>// <span class="blink">_</span></span>
+</footer>
+
+<script src="projects.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
