@@ -20,6 +20,32 @@ A 30-day challenge to build 30 quirky, mostly useless, occasionally delightful w
 | 02 | Procrastination Stopwatch | ◌ pending |
 | 03 | Cat Fact Terminal | ◌ pending |
 | 04 | Arch Linux Link Shortener | ◌ pending |
+| 05 | [HIDDEN] | ◌ pending |
+| 06 | [HIDDEN] | ◌ pending |
+| 07 | [HIDDEN] | ◌ pending |
+| 08 | [HIDDEN] | ◌ pending |
+| 09 | [HIDDEN] | ◌ pending |
+| 10 | [HIDDEN] | ◌ pending |
+| 11 | [HIDDEN] | ◌ pending |
+| 12 | [HIDDEN] | ◌ pending |
+| 13 | [HIDDEN] | ◌ pending |
+| 14 | [HIDDEN] | ◌ pending |
+| 15 | [HIDDEN] | ◌ pending |
+| 16 | [HIDDEN] | ◌ pending |
+| 17 | [HIDDEN] | ◌ pending |
+| 18 | [HIDDEN] | ◌ pending |
+| 19 | [HIDDEN] | ◌ pending |
+| 20 | [HIDDEN] | ◌ pending |
+| 21 | [HIDDEN] | ◌ pending |
+| 22 | [HIDDEN] | ◌ pending |
+| 23 | [HIDDEN] | ◌ pending |
+| 24 | [HIDDEN] | ◌ pending |
+| 25 | [HIDDEN] | ◌ pending |
+| 26 | [HIDDEN] | ◌ pending |
+| 27 | [HIDDEN] | ◌ pending |
+| 28 | [HIDDEN] | ◌ pending |
+| 29 | [HIDDEN] | ◌ pending |
+| 30 | [HIDDEN] | ◌ pending |
 
 ## How to update this hub when you ship a new project
 

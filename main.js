@@ -1,8 +1,11 @@
 // ---- Render projects ----
 const grid = document.getElementById('projectGrid');
 
-PROJECTS.filter(p => !p.hidden).forEach((p, i) => {
-  const isLocked = !p.live;
+const maxVisibleDay = Math.max(...PROJECTS.filter(p => !p.hidden).map(p => p.day));
+
+PROJECTS.forEach((p, i) => {
+  const isHidden = !!p.hidden;
+  const isLocked = isHidden || !p.live;
   const tag = isLocked ? 'div' : 'a';
   const el = document.createElement(tag);
 
@@ -15,15 +18,24 @@ PROJECTS.filter(p => !p.hidden).forEach((p, i) => {
   }
 
   const dayStr = String(p.day).padStart(2, '0');
-  const tagsHtml = (p.tags || [])
-    .map(t => `<span class="card__tag">${t}</span>`)
-    .join('');
+
+  let title, desc, tagsHtml;
+  if (isHidden) {
+    const waitDays = p.day - maxVisibleDay;
+    title = '[HIDDEN]';
+    desc = `wait ${waitDays} ${waitDays === 1 ? 'day' : 'days'}`;
+    tagsHtml = '';
+  } else {
+    title = p.title;
+    desc = p.desc;
+    tagsHtml = (p.tags || []).map(t => `<span class="card__tag">${t}</span>`).join('');
+  }
 
   el.innerHTML = `
     <span class="card__num">${dayStr}</span>
     <span class="card__arrow">${isLocked ? '◌' : '↗'}</span>
-    <h3 class="card__title">${p.title}</h3>
-    <p class="card__desc">${p.desc}</p>
+    <h3 class="card__title">${title}</h3>
+    <p class="card__desc">${desc}</p>
     <div class="card__tags">${tagsHtml}</div>
   `;
 
