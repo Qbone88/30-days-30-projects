@@ -17,9 +17,9 @@ const PROJECTS = [
   },
   {
     day: 2,
-    title: "Arch Linux Link Shortener",
-    desc: "Shortens any URL, but every link redirects through a page that proudly announces I use Arch Linux. Btw.",
-    tags: ["full-stack", "api"],
+    title: "Procrastination Stopwatch",
+    desc: "Tracks how long you've been avoiding the thing. Gets progressively more judgmental.",
+    tags: ["frontend"],
     live: false
   },
   {
@@ -31,9 +31,9 @@ const PROJECTS = [
   },
   {
     day: 4,
-    title: "Procrastination Stopwatch",
-    desc: "Tracks how long you've been avoiding the thing. Gets progressively more judgmental.",
-    tags: ["frontend"],
+    title: "Arch Linux Link Shortener",
+    desc: "Shortens any URL, but every link redirects through a page that proudly announces I use Arch Linux. Btw.",
+    tags: ["full-stack", "api"],
     live: false
   },
   {
