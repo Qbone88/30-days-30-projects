@@ -17,35 +17,9 @@ A 30-day challenge to build 30 quirky, mostly useless, occasionally delightful w
 | Day | Project | Status |
 |----:|---------|--------|
 | 01 | The Portfolio Hub | ✅ live |
-| 02 | Arch Linux Link Shortener | ◌ pending |
+| 02 | Procrastination Stopwatch | ◌ pending |
 | 03 | Cat Fact Terminal | ◌ pending |
-| 04 | Procrastination Stopwatch | ◌ pending |
-| 05 | Decision Coin | ◌ pending |
-| 06 | Webcam Mood Ring | ◌ pending |
-| 07 | Multiplayer Cursor Chaos | ◌ pending |
-| 08 | Regex Crossword | ◌ pending |
-| 09 | Useless Password Generator | ◌ pending |
-| 10 | Tab Hoarders Anonymous | ◌ pending |
-| 11 | The Excuse Machine | ◌ pending |
-| 12 | Favicon Pixel Pet | ◌ pending |
-| 13 | Conspiracy Generator | ◌ pending |
-| 14 | Tic-Tac-Toe (50×50) | ◌ pending |
-| 15 | CSS Boxing Match | ◌ pending |
-| 16 | Compliment Roulette | ◌ pending |
-| 17 | Is It Tuesday? | ◌ pending |
-| 18 | Keyboard Symphony | ◌ pending |
-| 19 | Pirate Lorem Ipsum | ◌ pending |
-| 20 | Useless Voting Booth | ◌ pending |
-| 21 | Infinite Cloud Generator | ◌ pending |
-| 22 | Wikipedia Rabbit Hole Race | ◌ pending |
-| 23 | Yelling Into the Void | ◌ pending |
-| 24 | The Sentient Snake | ◌ pending |
-| 25 | Bug Therapist | ◌ pending |
-| 26 | The Most Annoying Form | ◌ pending |
-| 27 | Browser Drum Machine | ◌ pending |
-| 28 | Collaborative Doodle | ◌ pending |
-| 29 | Procedural Resume Generator | ◌ pending |
-| 30 | A Eulogy | ◌ pending |
+| 04 | Arch Linux Link Shortener | ◌ pending |
 
 ## How to update this hub when you ship a new project
 

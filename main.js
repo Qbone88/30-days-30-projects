@@ -1,7 +1,7 @@
 // ---- Render projects ----
 const grid = document.getElementById('projectGrid');
 
-PROJECTS.forEach((p, i) => {
+PROJECTS.filter(p => !p.hidden).forEach((p, i) => {
   const isLocked = !p.live;
   const tag = isLocked ? 'div' : 'a';
   const el = document.createElement(tag);
